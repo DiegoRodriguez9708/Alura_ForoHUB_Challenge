@@ -53,7 +53,9 @@ Para ejecutar el proyecto en tu máquina local, sigue estos pasos:
    mvn spring-boot:run
    ```
 La aplicación se ejecutará en "http://localhost:8080"
-##Uso 
+
+   ## Uso 
+   
 1.Registro de Usuario: Envía una solicitud POST a /register con los datos del usuario.
    ```bash
       {
@@ -70,7 +72,7 @@ La aplicación se ejecutará en "http://localhost:8080"
    ```
 Recibirás un token JWT en la respuesta que deberás usar para autenticarte en las siguientes solicitudes.
 3.Gestión de Foros: Utiliza los endpoints correspondientes para crear y gestionar foros. Asegúrate de incluir el token JWT en el encabezado de autorización.
-##API
+   ## API
 La API de ForoHub incluye los siguientes endpoints:
 
 * POST /register: Registra un nuevo usuario.
@@ -80,7 +82,7 @@ La API de ForoHub incluye los siguientes endpoints:
 * GET /foros/{id}: Obtiene detalles de un foro específico.
 * POST /foros/{id}/comentarios: Agrega un comentario a un foro (requiere autenticación).
 
-#Contribuciones
+## Contribuciones
 Las contribuciones son bienvenidas. Si deseas contribuir, por favor sigue estos pasos:
 
 *Haz un fork del repositorio.
