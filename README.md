@@ -75,18 +75,18 @@ Recibirás un token JWT en la respuesta que deberás usar para autenticarte en l
    ## API
 La API de ForoHub incluye los siguientes endpoints:
 
-* POST /register: Registra un nuevo usuario.
-* POST /login: Inicia sesión y devuelve un token JWT.
-* GET /foros: Obtiene la lista de foros.
-* POST /foros: Crea un nuevo foro (requiere autenticación).
-* GET /foros/{id}: Obtiene detalles de un foro específico.
-* POST /foros/{id}/comentarios: Agrega un comentario a un foro (requiere autenticación).
+- POST /register: Registra un nuevo usuario.
+- POST /login: Inicia sesión y devuelve un token JWT.
+- GET /foros: Obtiene la lista de foros.
+- POST /foros: Crea un nuevo foro (requiere autenticación).
+- GET /foros/{id}: Obtiene detalles de un foro específico.
+- POST /foros/{id}/comentarios: Agrega un comentario a un foro (requiere autenticación).
 
 ## Contribuciones
 Las contribuciones son bienvenidas. Si deseas contribuir, por favor sigue estos pasos:
 
-*Haz un fork del repositorio.
-*Crea una nueva rama (git checkout -b feature/nueva-caracteristica).
-*Realiza tus cambios y haz commit (git commit -m 'Agregada nueva característica').
-*Haz push a la rama (git push origin feature/nueva-caracteristica).
-*Abre un Pull Request.
+- Haz un fork del repositorio.
+- Crea una nueva rama (git checkout -b feature/nueva-caracteristica).
+- Realiza tus cambios y haz commit (git commit -m 'Agregada nueva característica').
+- Haz push a la rama (git push origin feature/nueva-caracteristica).
+- Abre un Pull Request.
