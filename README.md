@@ -40,7 +40,7 @@ Para ejecutar el proyecto en tu máquina local, sigue estos pasos:
    git clone https://github.com/tu_usuario/forohub.git
    cd forohub
 2.**Compila el proyecto:**
-```bash
+   ```bash
    mvn clean install
-
-3.**Ejecura la aplicación:**
+a
+3.**Ejecuta la aplicación:**
